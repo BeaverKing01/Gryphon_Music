@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home</title>
+<!-- TemplateEndEditable -->
+<link href="../css/styles.css" rel="stylesheet" link type="text/css" media="screen">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+
+<body onload="MM_preloadImages('../pics/logo_change.png')">
+
+<div id="wrapper">
+
+	<div id="container">
+    
+    	<div id="logo">
+   	    	<img src="../pics/Gryphon_logo_sml.jpg" id="Image1" onmouseover="MM_swapImage('Image1','','../pics/logo_change.png',1);MM_swapImage('Image1','','../pics/logo_change.png',1)" onmouseout="MM_swapImgRestore()" />
+        </div>
+        
+        <div id="sm_icon">
+          <a href="http://www.Facebook.com"><img src="../pics/icons/facebook-32x32.png" /></a>
+        </div>
+        <div id="contact_details">
+          <p><span class="contact_decoration1">Call:</span>083-412-3982</p>
+          
+        </div>
+        
+        <div id ="topnav">
+        	<ul>
+        	 <li><a href="../html/index.html">Home</a></li>
+             <li><a href="../html/course_info.html">Course Info</a></li>
+             <li><a href="../html/teachers.html">Teachers</a></li>
+             <li><a href="../html/free_lessons.html">Free Lessons</a></li>
+             <li><a href="../html/gallery.html">Gallery</a></li>
+             <li><a href="../html/contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <div id="banner_ad">
+        </div>
+        
+        <div id="left"><!-- TemplateBeginEditable name="EditRegion3" -->
+          <h1>Welcome to Gryphon Music</h1>
+          <br />
+          <p>The Gryphon Music Academy is a guitar school based in Plumstead, Cape Town. We offer guitar lessons, bass lessons, song writing courses and music theory courses</p>
+          <br />
+          <p>Warwick Levey started The Gryphon Music Academy in 2007. He has worked as a professional musician since 2004. He started off as a sales person, part time music teacher and guitar tech at Paul Bothner Music in Plumstead before opening the school full time. Lessons are held in a small studio inside Paul Bothner Music Plumstead, or at your home(terms and conditions apply)</p>
+          <br />
+          <p>Lessons are tailored specifically to each student. Regardless of style or level of proficiency a syllabus will be written with your goals in mind. If you're looking to play acoustic pop songs, blues, a few songs around the camp fire or learn to shred, you'll find what you're looking for at the Gryphon Music Academy.</p>
+          <br />
+          <p>If you want to learn Led Zepplin, you'll learn Led Zepplin. If you want to learn Taylor Swift, you'll learn Taylor Swift. If you want to learn Justin Beiber, you'll learn Led Zepplin.</p>
+          <br />
+          <p>The youngest age we'll start at is 6, and we've had students as old as 72. All you require is a guitar, passion for music and the desire to learn.</p>
+          <br />
+          <p>Lessons are all done on a one on one basis. By special request, groups of no more than 2 will be considered.</p>
+          <br />
+          <p>If you require a more structured approach the Trinity Rock School Syllabus can be taught.</p>
+          <br />
+          <p>Our Motto is "Turning players into musicians". At the Gryphon Music Academy we believe in teaching players of all levels to not just play the instrument, but to think about the entire scope of the instrument in the context of music. Besides learning the practical side of playing, you will also learn music theory, song writing and instrument maintenance.</p>
+        <!-- TemplateEndEditable --></div>
+        
+        <div id="right">
+        	<img src="../pics/37802_521094404572672_1407526561_n.jpg" />
+        </div>
+        
+        
+        <div id="footer">
+        	<p>Copy write 2013 Gryphon Music Academy. All Rights Reserved. Built By Warwick Levey</p>
+        </div>
+             
+    </div>
+
+</div>
+</body>
+</html>

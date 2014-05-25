@@ -1,0 +1,187 @@
+
+
+/*##############################################
+					GALLERY CODE
+##############################################*/
+
+#gallery /*gallery container*/
+{
+	position:relative;
+	width:770px;
+	height:400px;
+	margin:20px auto 0 auto;
+	border: 10px double #666;
+	background:black url(../pics/Gryphon_logo_sml.jpg) 165px 100px no-repeat;
+}
+
+#gallery ul /*setting margins and removing the bullets*/
+{
+	padding:0px;
+	margin:0;
+	list-style-type:none;
+}
+
+#gallery a.gallery span /*stacking everything on top of each other to remove images and text*/
+{
+	position:absolute;
+	width:1px;
+	height:1px;
+	top:5px;
+	left:5px;
+	overflow:hidden;
+	background:#fff;
+}
+
+#gallery a.gallery, #gallery a.gallery:visited
+{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	border:1px solid #000;
+	margin:1px 2px 1px 2px;
+	text-align:left;
+	cursor:default;
+}
+
+#gallery a.slidea
+{
+	background:url(../pics/Thumbnails/1.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slideb
+{
+	background:url(../pics/Thumbnails/2.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidec
+{
+	background:url(../pics/Thumbnails/3.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slided
+{
+	background:url(../pics/Thumbnails/4.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidee
+{
+	background:url(../pics/Thumbnails/5.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidef
+{
+	background:url(../pics/Thumbnails/6.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slideg
+{
+	background:url(../pics/Thumbnails/7.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slideh
+{
+	background:url(../pics/Thumbnails/8.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidei
+{
+	background:url(../pics/Thumbnails/9.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidej
+{
+	background:url(../pics/Thumbnails/10.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidek
+{
+	background:url(../pics/Thumbnails/11.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidel
+{
+	background:url(../pics/Thumbnails/12.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidem
+{
+	background:url(../pics/Thumbnails/13.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.sliden
+{
+	background:url(../pics/Thumbnails/14.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slideo
+{
+	background:url(../pics/Thumbnails/15.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slidep
+{
+	background:url(../pics/Thumbnails/16.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slideq
+{
+	background:url(../pics/Thumbnails/17.jpg);
+	height:60px;
+	width:60px;
+}
+#gallery a.slider
+{
+	background:url(../pics/Thumbnails/18.jpg);
+	height:60px;
+	width:60px;
+}
+
+#gallery ul
+{
+	width:198px;
+	height:386px;
+	margin:5px;
+	float:right;
+}
+#gallery li
+{
+	float:left;
+}
+
+#gallery a.gallery:hover
+{
+	border:1px solid #fff;
+}
+#gallery a.gallery:hover span
+{
+    position:absolute; 
+    width:400px; 
+    height:300px; 
+    top:35px; 
+    left:75px; 
+    color:#000; 
+    background:black;
+}
+
+#gallery a.gallery:hover img 
+{
+    border:1px solid black; 
+    float:left; 
+    margin-right:5px;
+}
